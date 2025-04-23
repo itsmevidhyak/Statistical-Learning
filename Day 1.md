@@ -1,6 +1,6 @@
 # Statistical Learning
 
-##Supervised learning 
+## Supervised learning 
  - Algorithm is given a set of specific targets to aim for. Target is known in advance. Aims to predict targets correctly.
  - Outcome measurement - Y - called as dependent variable/response variable/target variable
  - Vector - p measurements X - called as inputs, regressors, independent variables, covariates, features
@@ -19,7 +19,7 @@
        * understand which inputs affect the outcome and how
        * Assess the quality of our predictions and inferences
        * the idea is to know how and when to use these variety of techniques
-##Unsupervised learning
+## Unsupervised learning
  - Outcome variable is unknown, just a set of predictors available. It's not about predicting Y because there's no Y. Rather, learn about how the data is organised.
  - Find which features are important for the organisation of data.
  - Features are measured on a set of samples
@@ -31,7 +31,7 @@
  - Often useful to organise the features and choose it based on the X's themselves and then use these processed/chosen features as an input to supervised learning.
  - Lot easier- more common to collect data which is unlabeled and unsupervised. eg look for a movie on internet -> the algorithm can scan the web and grab reviews.
  - Figuring out whether the review is positive/negative often costs and takes human intervention to label data. 
-##Philosophy
+## Philosophy
  - Aim is to not have just a laundry list of methods.
  - Important to understand ideas behind the techniques and know when and where to use them.
  - In our own work, there can be variety of problems that we have never seen before.
@@ -42,7 +42,7 @@
    working so that you can tell that, when you apply this method, how well you're likely to do it tomorrow.
  - In some cases, you won't do well enough to actually use the method, and you'll have to improve the algorithm or may be able to collect better data.
  - Exciting area of research with new problems.
-##Netflix prize example
+## Netflix prize example
  - Netflix has setup a competition to improve their recommender system's reting system by 10% of RMSE. Original algo had RMSE of 0.953.
  - Dataset: 400k customers, 18k movies
  - Each customer has rated on an average 200 movies each. Each customer has seen roughly about 1% of movies.
@@ -51,7 +51,7 @@
  - $1m prize for 1st team that could improve their rating system by 10% by some measure.
  - took 3 years - winning team used PCA - Bellkor's pragmatic chaos
  - Rob & Trevor's team tries but hit with Computational issues. Computers not fast enough. (Common problem!!!)
-##Statistical Learning vs Machine Learning
+## Statistical Learning vs Machine Learning
  - ML - subfield of AI; SL - subfield of stats
  - Commonality: both focuses on supervised and unsupervised problems
  - ML - greater emphasis on large scale applications & prediction accuracy
