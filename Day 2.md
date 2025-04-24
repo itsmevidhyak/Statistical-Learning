@@ -9,10 +9,8 @@
  Sales: Variable Y, Response/Target we wish to predict/model.
  TV: one of the features or inputs or predictors X_1
  3 predictors: Vector X = 
- $$ \begin{bmatrix}
-x_{1} \\
-x_{2} \\
-x_{3}
-\end{bmatrix} $$
+```math
+\begin{bmatrix}X\\Y\end{bmatrix}
+```
 
  
