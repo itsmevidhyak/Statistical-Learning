@@ -19,6 +19,10 @@
        * understand which inputs affect the outcome and how
        * Assess the quality of our predictions and inferences
        * the idea is to know how and when to use these variety of techniques
+## Examples of Supervised Learning
+- Predict whether a user will click an ad
+- Classify a handwritten digit as 0-9 from labeled examples
+- Find stocks that are likely to rise
 ## Unsupervised learning
  - Outcome variable is unknown, just a set of predictors available. It's not about predicting Y because there's no Y. Rather, learn about how the data is organised.
  - Find which features are important for the organisation of data.
