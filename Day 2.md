@@ -6,11 +6,16 @@
  Model: Sales $\approx$ f(TV, Radio, Newspaper)
 -  We are trying to model the joint relationship between Sales and all three variables together to understand how these three variables operate together to influence sales.
 
- Sales: Variable Y, Response/Target we wish to predict/model.
- TV: one of the features or inputs or predictors X_1
- 3 predictors - notation is in column vectors
+- Sales: Variable Y, Response/Target we wish to predict/model.
+- TV: one of the features or inputs or predictors X_1
+- 3 predictors - notation is in column vectors
 ```math
-Vector\  X\  = \begin{bmatrix}x_1\\x_2\\x_3\end{bmatrix}
+Input \ Vector\  X\  = \begin{bmatrix}x_1\\x_2\\x_3\end{bmatrix}
 ```
+Model is written as: 
+```math
+Y = f(x) + \epsilon
+```
+
 
  
