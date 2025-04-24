@@ -10,7 +10,7 @@
  TV: one of the features or inputs or predictors X_1
  3 predictors - notation is in column vectors
 ```math
-Vector X\  \= \begin{bmatrix}x_1\\x_2\\x_3\end{bmatrix}
+Vector\  X\  = \begin{bmatrix}x_1\\x_2\\x_3\end{bmatrix}
 ```
 
  
