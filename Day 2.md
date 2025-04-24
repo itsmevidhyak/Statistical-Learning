@@ -29,13 +29,16 @@ Y = f(x) + \epsilon
 ```math
 Y = f(x) + \epsilon = f(x_1,\  x_2,\  x_3) \ = \ E[Y|X_1\ =\ x_1,\ X_2\ =\ x_2,\ X_3\ =\ x_3]
 ```
- 
 - This is the function that minimises the mean-squared prediction error.
 - f(x) = E[Y|X=x] is the function that minimises the error E[(Y-g(X))^2|X=x] over all functions g at all points X = x
-- \epsilon is the irreducible error = Y - f(x)
+- $\epsilon$ is the irreducible error = Y - f(x)
 - Even if we knew f(x), we would still make errors in prediction, since at each X=x, there's typically a distribution of possible Y values.
-- For any estimate fhat_x of f(x) we have E[(Y-fhat(x))^2|X=x] = {reducible error} [f(x) - fhat(x)]^2 + Var(\epsilon)
-- 
+- For any estimate fhat_x of f(x) we have E[(Y-fhat(x))^2|X=x] = {reducible error} [f(x) - fhat(x)]^2 + Var($\epsilon$)
+
+How to estimate f?
+- Typically we have sparse data and actually no data points whose X = 4.
+- So how do you compute conditional average? Relax the idea of "at point X" to "at in a neighbourhood of point X".
+- fhat(x) = average(Y|X $\epsilon$ ${mathbi}N$
 
   
 
