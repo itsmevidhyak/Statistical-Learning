@@ -56,7 +56,7 @@ Y = f(x) + \epsilon = f(x_1,\  x_2,\  x_3) \ = \ E[Y|X_1\ =\ x_1,\ X_2\ =\ x_2,\
 - Binary search: Sort data into a new representation: X' = [ -4 3 5 9 10 14 30 32 72 100]
 - Start at the midpoint - ask greater or smaller than the query point!
 - How close are we to the nearest neighbour?
-- 
+- As the number of features or dimensions grow, the amount of data we need to generalise accurately grows exponentially.
   
 
 
