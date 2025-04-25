@@ -8,7 +8,8 @@
 - Eg. Visualise how the distance to the corner behaves as the number of dimensions increase
  Distance to corner = sqrt(side ^ 2 * Number of Dimensions)
 
-![image](https://github.com/user-attachments/assets/af600aca-831d-47a8-a8f1-1c7baff7fd00)
+![image](https://github.com/user-attachments/assets/d151b48f-1b78-45cb-8245-c89e9a3f241b)
+
 
 - Consider a (-1,+1) little cube
 - say we got 2 variables x1 and x2
