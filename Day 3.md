@@ -19,7 +19,7 @@
 - Radius of circle in 2d > Radius of circle in 1d which is the width between the two lines
 - So, to capture 10% of points, we need to spread out more to in 2d and we become less local than that in the 1d.
 - Second chart shows how far we need to go as dimensions increases. As dimensions increases, neighbours get concentrated at the corners.
-- You need to travel more to capture the same 10% of the neighbourhood.
+- You need to travel more to capture the 10% of the neighbourhood.
 
 ![image](https://github.com/user-attachments/assets/0f39073d-505a-441f-bf91-c5caf54657d9)
 
