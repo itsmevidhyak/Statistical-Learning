@@ -1,0 +1,19 @@
+This is an example to showcase the principle of curse of dimensionality.
+In high-dimensional spaces, volumes concentrates on the outside exponentially, as the dimension increases.
+Hypercubes:
+d = 1 => interval
+d = 2 => square
+d = 3 => cube
+and so on.
+Hypercube's volume = l^d where d is the number of dimensions and l is the edge length
+
+Side length = 1 => hypercube is an interval
+Dimension, d = 50
+Volume of hypercube = 1^50 = 1
+
+Boundary is defined to be (0,0.05) and (0.95, 1) 
+So, whatever lies between 0.05 and 0.95 doesn't fall within the boundary
+Length of non-boundary region = 0.95 - 0.05 = 0.9
+Volume of the non-boundary region = 0.9^50
+
+Proportion of the points in a hypercube of dimension 50 are in the boundary = 1 - 0.9^50 = **99.48%**
