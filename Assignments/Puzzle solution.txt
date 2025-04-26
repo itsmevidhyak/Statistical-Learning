@@ -1,5 +1,5 @@
 This is an example to showcase the principle of curse of dimensionality.
-In high-dimensional spaces, volumes concentrates on the outside exponentially, as the dimension increases.
+In high-dimensional spaces, volumes concentrate on the outside exponentially, as the dimension increases.
 Hypercubes:
 d = 1 => interval
 d = 2 => square
