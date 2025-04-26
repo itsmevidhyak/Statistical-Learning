@@ -16,4 +16,4 @@ So, whatever lies between 0.05 and 0.95 doesn't fall within the boundary
 Length of non-boundary region = 0.95 - 0.05 = 0.9
 Volume of the non-boundary region = 0.9^50
 
-Proportion of the points in a hypercube of dimension 50 are in the boundary = 1 - 0.9^50 = **99.48%**
+Proportion of the points in a hypercube of dimension 50 are in the boundary = 1 - 0.9^50 = 99.48%
