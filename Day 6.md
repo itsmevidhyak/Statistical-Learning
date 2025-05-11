@@ -79,3 +79,8 @@
 - Eg. handwritten zip code problem - NN does as better as any other algorithm tried.
 - other techniques include SVM, various forms of logistic and linear discriminant analysis.
 
+## Assignment question
+Look at the graph given on page 30 of the Chapter 2 lecture slides. Which of the following is most likely true of what would happen to the Test Error curve as we move  further 1/K above 1?
+Nah, it can't be greater than 1! Because it is the number of neighbours.
+
+Answer: Since  is the number of neighbors, the value of  must be a Natural Number. This means that 1/K <= 1.
