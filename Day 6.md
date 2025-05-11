@@ -59,3 +59,23 @@
 - We can use other values of k. k equals 1 is common and is called the nearest neighbor classifier.
 - Here we take literally at each target point, we find the closest point amongst the training data and classify to its class. The boundary here is a piecewise linear boundary. The probabilities that we estimate is just one and zero, because there's only one point to average. So there're no real probabilities.
 - But if you think about the decision boundary, it's a piecewise linear decision boundary.
+- It's the bisector of the line separating each pair of points when they're different colors.
+- NN average approximates it in a noisy way.
+- When we increase K to say K = 100, the neighbourhood becomes large. We get a smooth boundary. It almost becomes like a linear boundary and doesn't pick up the nuances of a boundary. k = 10 seems to be a good choice.
+- So, the choice of k is the tuning parameter that needs to be selected.
+
+<img width="427" alt="image" src="https://github.com/user-attachments/assets/441a39c6-3f03-4f94-8c26-0ffe7f347df2" />
+
+
+- This image shows how the error rate varies when we vary k in training data and in test data
+- on Training data, the errors tend to keep decreasing, not really in monotone
+- k large => high bias; so, 1/k is small
+- when 1/k is small => low complexity region; and when 1/k becomes large => high complexity region
+- Towards the end, the error becomes 0 when 1/k = 1
+- However, for test error, it starts increasing post 1/k = 0.01
+- dotted line - Bayes error ie., you can't do better than Bayes error in theory
+- test data set error rate - it touches the Bayes error rate at 1/k = 0.05ish and 1/k = 0.1ish
+- Error rate in test set, decreases, levels off and starts to increase again. If we have a validation set, that's what we use to determine k.
+- Eg. handwritten zip code problem - NN does as better as any other algorithm tried.
+- other techniques include SVM, various forms of logistic and linear discriminant analysis.
+
